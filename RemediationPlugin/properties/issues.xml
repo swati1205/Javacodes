@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues>
+   <issue>
+	   <id>IM01</id>
+	   <error>'mvn.bat' is not recognized as an internal or external command,operable program or batch file</error>
+   </issue>
+   <issue>
+	   <id>IM02</id>
+	   <error>FATAL: Couldn’t find any executable in</error>
+   </issue>
+   <issue>
+	   <id>IM03</id>
+  <error>No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format</error>
+   </issue>
+</issues>

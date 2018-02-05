@@ -1,0 +1,9 @@
+<j:jelly xmlns:j="jelly:core" xmlns:t="/lib/hudson" xmlns:st="jelly:stapler">
+    <t:summary icon="/plugin/sloccount/icons/sloccount-48.png">
+        <div><a href="${it.urlName}">${it.displayName}</a></div>
+
+        <j:set var="diff" value="${it.diffSummary}"/>
+        <j:set var="buildNumber" value="-1"/>
+        <st:include page="statistics.jelly" />
+    </t:summary>
+</j:jelly>

@@ -1,0 +1,1 @@
+# PlaceHolder for Detail Readme for clair security scanner plugin

@@ -1,0 +1,311 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace D:\EclipseK\Project\RemediationPlugin\work\jobs\TestPlugin\workspace
+FSSCM.checkout D:\jpetstore-6-master to D:\EclipseK\Project\RemediationPlugin\work\jobs\TestPlugin\workspace
+New file: .gitattributes
+New file: .gitignore
+New file: .project
+New file: .settings\org.eclipse.core.resources.prefs
+New file: .settings\org.eclipse.m2e.core.prefs
+New file: .sonar\report-task.txt
+New file: .travis.yml
+New file: LICENSE
+New file: NOTICE
+New file: pom.xml
+New file: README.md
+New file: sonar-project.properties
+New file: src\main\java\org\mybatis\jpetstore\domain\Account.java
+New file: src\main\java\org\mybatis\jpetstore\domain\Cart.java
+New file: src\main\java\org\mybatis\jpetstore\domain\CartItem.java
+New file: src\main\java\org\mybatis\jpetstore\domain\Category.java
+New file: src\main\java\org\mybatis\jpetstore\domain\Item.java
+New file: src\main\java\org\mybatis\jpetstore\domain\LineItem.java
+New file: src\main\java\org\mybatis\jpetstore\domain\Order.java
+New file: src\main\java\org\mybatis\jpetstore\domain\Product.java
+New file: src\main\java\org\mybatis\jpetstore\domain\Sequence.java
+New file: src\main\java\org\mybatis\jpetstore\persistence\AccountMapper.java
+New file: src\main\java\org\mybatis\jpetstore\persistence\CategoryMapper.java
+New file: src\main\java\org\mybatis\jpetstore\persistence\ItemMapper.java
+New file: src\main\java\org\mybatis\jpetstore\persistence\LineItemMapper.java
+New file: src\main\java\org\mybatis\jpetstore\persistence\OrderMapper.java
+New file: src\main\java\org\mybatis\jpetstore\persistence\ProductMapper.java
+New file: src\main\java\org\mybatis\jpetstore\persistence\SequenceMapper.java
+New file: src\main\java\org\mybatis\jpetstore\service\AccountService.java
+New file: src\main\java\org\mybatis\jpetstore\service\CatalogService.java
+New file: src\main\java\org\mybatis\jpetstore\service\OrderService.java
+New file: src\main\java\org\mybatis\jpetstore\web\actions\AbstractActionBean.java
+New file: src\main\java\org\mybatis\jpetstore\web\actions\AccountActionBean.java
+New file: src\main\java\org\mybatis\jpetstore\web\actions\CartActionBean.java
+New file: src\main\java\org\mybatis\jpetstore\web\actions\CatalogActionBean.java
+New file: src\main\java\org\mybatis\jpetstore\web\actions\OrderActionBean.java
+New file: src\main\resources\database\jpetstore-hsqldb-dataload.sql
+New file: src\main\resources\database\jpetstore-hsqldb-schema.sql
+New file: src\main\resources\log4j.properties
+New file: src\main\resources\org\mybatis\jpetstore\persistence\AccountMapper.xml
+New file: src\main\resources\org\mybatis\jpetstore\persistence\CategoryMapper.xml
+New file: src\main\resources\org\mybatis\jpetstore\persistence\ItemMapper.xml
+New file: src\main\resources\org\mybatis\jpetstore\persistence\LineItemMapper.xml
+New file: src\main\resources\org\mybatis\jpetstore\persistence\OrderMapper.xml
+New file: src\main\resources\org\mybatis\jpetstore\persistence\ProductMapper.xml
+New file: src\main\resources\org\mybatis\jpetstore\persistence\SequenceMapper.xml
+New file: src\main\resources\StripesResources.properties
+New file: src\main\webapp\css\jpetstore.css
+New file: src\main\webapp\help.html
+New file: src\main\webapp\images\banner_birds.gif
+New file: src\main\webapp\images\banner_cats.gif
+New file: src\main\webapp\images\banner_dogs.gif
+New file: src\main\webapp\images\banner_fish.gif
+New file: src\main\webapp\images\banner_reptiles.gif
+New file: src\main\webapp\images\bird1.gif
+New file: src\main\webapp\images\bird2.gif
+New file: src\main\webapp\images\birds_icon.gif
+New file: src\main\webapp\images\cart.gif
+New file: src\main\webapp\images\cat1.gif
+New file: src\main\webapp\images\cat2.gif
+New file: src\main\webapp\images\cats_icon.gif
+New file: src\main\webapp\images\dog1.gif
+New file: src\main\webapp\images\dog2.gif
+New file: src\main\webapp\images\dog3.gif
+New file: src\main\webapp\images\dog4.gif
+New file: src\main\webapp\images\dog5.gif
+New file: src\main\webapp\images\dog6.gif
+New file: src\main\webapp\images\dogs.gif
+New file: src\main\webapp\images\dogs_icon.gif
+New file: src\main\webapp\images\fish.gif
+New file: src\main\webapp\images\fish1.gif
+New file: src\main\webapp\images\fish2.gif
+New file: src\main\webapp\images\fish3.gif
+New file: src\main\webapp\images\fish4.gif
+New file: src\main\webapp\images\fish_icon.gif
+New file: src\main\webapp\images\lizard1.gif
+New file: src\main\webapp\images\logo-topbar.gif
+New file: src\main\webapp\images\poweredby.gif
+New file: src\main\webapp\images\reptiles_icon.gif
+New file: src\main\webapp\images\separator.gif
+New file: src\main\webapp\images\sm_birds.gif
+New file: src\main\webapp\images\sm_cats.gif
+New file: src\main\webapp\images\sm_dogs.gif
+New file: src\main\webapp\images\sm_fish.gif
+New file: src\main\webapp\images\sm_reptiles.gif
+New file: src\main\webapp\images\snake1.gif
+New file: src\main\webapp\images\splash.gif
+New file: src\main\webapp\index.html
+New file: src\main\webapp\META-INF\MANIFEST.MF
+New file: src\main\webapp\WEB-INF\applicationContext.xml
+New file: src\main\webapp\WEB-INF\jsp\account\EditAccountForm.jsp
+New file: src\main\webapp\WEB-INF\jsp\account\IncludeAccountFields.jsp
+New file: src\main\webapp\WEB-INF\jsp\account\NewAccountForm.jsp
+New file: src\main\webapp\WEB-INF\jsp\account\SignonForm.jsp
+New file: src\main\webapp\WEB-INF\jsp\cart\Cart.jsp
+New file: src\main\webapp\WEB-INF\jsp\cart\Checkout.jsp
+New file: src\main\webapp\WEB-INF\jsp\cart\IncludeMyList.jsp
+New file: src\main\webapp\WEB-INF\jsp\catalog\Category.jsp
+New file: src\main\webapp\WEB-INF\jsp\catalog\Item.jsp
+New file: src\main\webapp\WEB-INF\jsp\catalog\Main.jsp
+New file: src\main\webapp\WEB-INF\jsp\catalog\Product.jsp
+New file: src\main\webapp\WEB-INF\jsp\catalog\SearchProducts.jsp
+New file: src\main\webapp\WEB-INF\jsp\common\Error.jsp
+New file: src\main\webapp\WEB-INF\jsp\common\IncludeBottom.jsp
+New file: src\main\webapp\WEB-INF\jsp\common\IncludeTop.jsp
+New file: src\main\webapp\WEB-INF\jsp\order\ConfirmOrder.jsp
+New file: src\main\webapp\WEB-INF\jsp\order\ListOrders.jsp
+New file: src\main\webapp\WEB-INF\jsp\order\NewOrderForm.jsp
+New file: src\main\webapp\WEB-INF\jsp\order\ShippingForm.jsp
+New file: src\main\webapp\WEB-INF\jsp\order\ViewOrder.jsp
+New file: src\main\webapp\WEB-INF\web.xml
+New file: target\classes\database\jpetstore-hsqldb-dataload.sql
+New file: target\classes\database\jpetstore-hsqldb-schema.sql
+New file: target\classes\log4j.properties
+New file: target\classes\org\mybatis\jpetstore\domain\Account.class
+New file: target\classes\org\mybatis\jpetstore\domain\Cart.class
+New file: target\classes\org\mybatis\jpetstore\domain\CartItem.class
+New file: target\classes\org\mybatis\jpetstore\domain\Category.class
+New file: target\classes\org\mybatis\jpetstore\domain\Item.class
+New file: target\classes\org\mybatis\jpetstore\domain\LineItem.class
+New file: target\classes\org\mybatis\jpetstore\domain\Order.class
+New file: target\classes\org\mybatis\jpetstore\domain\Product.class
+New file: target\classes\org\mybatis\jpetstore\domain\Sequence.class
+New file: target\classes\org\mybatis\jpetstore\persistence\AccountMapper.class
+New file: target\classes\org\mybatis\jpetstore\persistence\AccountMapper.xml
+New file: target\classes\org\mybatis\jpetstore\persistence\CategoryMapper.class
+New file: target\classes\org\mybatis\jpetstore\persistence\CategoryMapper.xml
+New file: target\classes\org\mybatis\jpetstore\persistence\ItemMapper.class
+New file: target\classes\org\mybatis\jpetstore\persistence\ItemMapper.xml
+New file: target\classes\org\mybatis\jpetstore\persistence\LineItemMapper.class
+New file: target\classes\org\mybatis\jpetstore\persistence\LineItemMapper.xml
+New file: target\classes\org\mybatis\jpetstore\persistence\OrderMapper.class
+New file: target\classes\org\mybatis\jpetstore\persistence\OrderMapper.xml
+New file: target\classes\org\mybatis\jpetstore\persistence\ProductMapper.class
+New file: target\classes\org\mybatis\jpetstore\persistence\ProductMapper.xml
+New file: target\classes\org\mybatis\jpetstore\persistence\SequenceMapper.class
+New file: target\classes\org\mybatis\jpetstore\persistence\SequenceMapper.xml
+New file: target\classes\org\mybatis\jpetstore\service\AccountService.class
+New file: target\classes\org\mybatis\jpetstore\service\CatalogService.class
+New file: target\classes\org\mybatis\jpetstore\service\OrderService.class
+New file: target\classes\org\mybatis\jpetstore\web\actions\AbstractActionBean.class
+New file: target\classes\org\mybatis\jpetstore\web\actions\AccountActionBean.class
+New file: target\classes\org\mybatis\jpetstore\web\actions\CartActionBean.class
+New file: target\classes\org\mybatis\jpetstore\web\actions\CatalogActionBean.class
+New file: target\classes\org\mybatis\jpetstore\web\actions\OrderActionBean.class
+New file: target\classes\StripesResources.properties
+New file: target\jpetstore\css\jpetstore.css
+New file: target\jpetstore\help.html
+New file: target\jpetstore\images\banner_birds.gif
+New file: target\jpetstore\images\banner_cats.gif
+New file: target\jpetstore\images\banner_dogs.gif
+New file: target\jpetstore\images\banner_fish.gif
+New file: target\jpetstore\images\banner_reptiles.gif
+New file: target\jpetstore\images\bird1.gif
+New file: target\jpetstore\images\bird2.gif
+New file: target\jpetstore\images\birds_icon.gif
+New file: target\jpetstore\images\cart.gif
+New file: target\jpetstore\images\cat1.gif
+New file: target\jpetstore\images\cat2.gif
+New file: target\jpetstore\images\cats_icon.gif
+New file: target\jpetstore\images\dog1.gif
+New file: target\jpetstore\images\dog2.gif
+New file: target\jpetstore\images\dog3.gif
+New file: target\jpetstore\images\dog4.gif
+New file: target\jpetstore\images\dog5.gif
+New file: target\jpetstore\images\dog6.gif
+New file: target\jpetstore\images\dogs.gif
+New file: target\jpetstore\images\dogs_icon.gif
+New file: target\jpetstore\images\fish.gif
+New file: target\jpetstore\images\fish1.gif
+New file: target\jpetstore\images\fish2.gif
+New file: target\jpetstore\images\fish3.gif
+New file: target\jpetstore\images\fish4.gif
+New file: target\jpetstore\images\fish_icon.gif
+New file: target\jpetstore\images\lizard1.gif
+New file: target\jpetstore\images\logo-topbar.gif
+New file: target\jpetstore\images\poweredby.gif
+New file: target\jpetstore\images\reptiles_icon.gif
+New file: target\jpetstore\images\separator.gif
+New file: target\jpetstore\images\sm_birds.gif
+New file: target\jpetstore\images\sm_cats.gif
+New file: target\jpetstore\images\sm_dogs.gif
+New file: target\jpetstore\images\sm_fish.gif
+New file: target\jpetstore\images\sm_reptiles.gif
+New file: target\jpetstore\images\snake1.gif
+New file: target\jpetstore\images\splash.gif
+New file: target\jpetstore\index.html
+New file: target\jpetstore\META-INF\MANIFEST.MF
+New file: target\jpetstore\WEB-INF\applicationContext.xml
+New file: target\jpetstore\WEB-INF\classes\database\jpetstore-hsqldb-dataload.sql
+New file: target\jpetstore\WEB-INF\classes\database\jpetstore-hsqldb-schema.sql
+New file: target\jpetstore\WEB-INF\classes\log4j.properties
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\domain\Account.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\domain\Cart.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\domain\CartItem.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\domain\Category.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\domain\Item.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\domain\LineItem.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\domain\Order.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\domain\Product.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\domain\Sequence.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\AccountMapper.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\AccountMapper.xml
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\CategoryMapper.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\CategoryMapper.xml
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\ItemMapper.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\ItemMapper.xml
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\LineItemMapper.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\LineItemMapper.xml
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\OrderMapper.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\OrderMapper.xml
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\ProductMapper.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\ProductMapper.xml
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\SequenceMapper.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\persistence\SequenceMapper.xml
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\service\AccountService.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\service\CatalogService.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\service\OrderService.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\web\actions\AbstractActionBean.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\web\actions\AccountActionBean.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\web\actions\CartActionBean.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\web\actions\CatalogActionBean.class
+New file: target\jpetstore\WEB-INF\classes\org\mybatis\jpetstore\web\actions\OrderActionBean.class
+New file: target\jpetstore\WEB-INF\classes\StripesResources.properties
+New file: target\jpetstore\WEB-INF\jsp\account\EditAccountForm.jsp
+New file: target\jpetstore\WEB-INF\jsp\account\IncludeAccountFields.jsp
+New file: target\jpetstore\WEB-INF\jsp\account\NewAccountForm.jsp
+New file: target\jpetstore\WEB-INF\jsp\account\SignonForm.jsp
+New file: target\jpetstore\WEB-INF\jsp\cart\Cart.jsp
+New file: target\jpetstore\WEB-INF\jsp\cart\Checkout.jsp
+New file: target\jpetstore\WEB-INF\jsp\cart\IncludeMyList.jsp
+New file: target\jpetstore\WEB-INF\jsp\catalog\Category.jsp
+New file: target\jpetstore\WEB-INF\jsp\catalog\Item.jsp
+New file: target\jpetstore\WEB-INF\jsp\catalog\Main.jsp
+New file: target\jpetstore\WEB-INF\jsp\catalog\Product.jsp
+New file: target\jpetstore\WEB-INF\jsp\catalog\SearchProducts.jsp
+New file: target\jpetstore\WEB-INF\jsp\common\Error.jsp
+New file: target\jpetstore\WEB-INF\jsp\common\IncludeBottom.jsp
+New file: target\jpetstore\WEB-INF\jsp\common\IncludeTop.jsp
+New file: target\jpetstore\WEB-INF\jsp\order\ConfirmOrder.jsp
+New file: target\jpetstore\WEB-INF\jsp\order\ListOrders.jsp
+New file: target\jpetstore\WEB-INF\jsp\order\NewOrderForm.jsp
+New file: target\jpetstore\WEB-INF\jsp\order\ShippingForm.jsp
+New file: target\jpetstore\WEB-INF\jsp\order\ViewOrder.jsp
+New file: target\jpetstore\WEB-INF\lib\aopalliance-1.0.jar
+New file: target\jpetstore\WEB-INF\lib\commons-logging-1.1.3.jar
+New file: target\jpetstore\WEB-INF\lib\hsqldb-2.3.2.jar
+New file: target\jpetstore\WEB-INF\lib\jstl-1.2.jar
+New file: target\jpetstore\WEB-INF\lib\log4j-1.2.17.jar
+New file: target\jpetstore\WEB-INF\lib\mybatis-3.2.8.jar
+New file: target\jpetstore\WEB-INF\lib\mybatis-spring-1.2.2.jar
+New file: target\jpetstore\WEB-INF\lib\spring-aop-4.1.4.RELEASE.jar
+New file: target\jpetstore\WEB-INF\lib\spring-beans-4.1.4.RELEASE.jar
+New file: target\jpetstore\WEB-INF\lib\spring-context-4.1.4.RELEASE.jar
+New file: target\jpetstore\WEB-INF\lib\spring-core-4.1.4.RELEASE.jar
+New file: target\jpetstore\WEB-INF\lib\spring-expression-4.1.4.RELEASE.jar
+New file: target\jpetstore\WEB-INF\lib\spring-jdbc-4.1.4.RELEASE.jar
+New file: target\jpetstore\WEB-INF\lib\spring-tx-4.1.4.RELEASE.jar
+New file: target\jpetstore\WEB-INF\lib\spring-web-4.1.4.RELEASE.jar
+New file: target\jpetstore\WEB-INF\lib\stripes-1.5.8.jar
+New file: target\jpetstore\WEB-INF\web.xml
+New file: target\jpetstore.war
+New file: target\maven-archiver\pom.properties
+
+FSSCM.check completed in 700 milliseconds
+[workspace] $ cmd.exe /C '"mvn.bat && exit %%ERRORLEVEL%%"'
+[INFO] Scanning for projects...
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for org.mybatis:jpetstore:war:6.0.2-SNAPSHOT
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.tomcat.maven:tomcat7-maven-plugin @ line 147, column 9
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 120, column 15
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-resources-plugin is missing. @ line 113, column 15
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.108s
+[INFO] Finished at: Thu Oct 13 19:37:09 IST 2016
+[INFO] Final Memory: 7M/123M
+[INFO] ------------------------------------------------------------------------
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-site, site, post-site, site-deploy, pre-clean, clean, post-clean. -> [Help 1]
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoGoalSpecifiedException
+Build step 'Invoke top-level Maven targets' marked build as failure
+file Path:D:\EclipseK\Project\RemediationPlugin\work\plugins\RemediationPlugin\issues.xml
+issue.xml file not found
+ERROR: Build step failed with exception
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.NullPointerException
+	at org.jenkinsci.plugins.RemediationPlugin.JenkinsIssueRemediation.perform(JenkinsIssueRemediation.java:90)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:782)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:723)
+	at hudson.model.Build$BuildExecution.post2(Build.java:185)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:668)
+	at hudson.model.Run.execute(Run.java:1763)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+Build step 'Issue Remedy' marked build as failure
+Finished: FAILURE

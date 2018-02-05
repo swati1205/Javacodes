@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<project name="FactNew.java" xmlns:jacoco="antlib:org.jacoco.ant" default="package">
+	<property name="src.dir" location="src" />
+	<property name="build.dir" location="build/classes/" />
+	<property name="report.dir" location="report" />
+	<property name="reports.junit.xml.dir" location="${report.dir}/junit" />
+	<property name="archives.dir" value="build/archives"/>
+
+	<target name="clean">
+		<delete dir="build" />
+	</target>
+
+
+	<path id="classpath.test">
+		<pathelement location="D:/EclipseK/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar" />
+		<pathelement location="${build.dir}" />
+
+
+	</path>
+
+	<target name="compile" depends="clean">
+		<mkdir dir="build/classes" />
+		<javac srcdir="${src.dir}" destdir="build/classes" includeantruntime="false" classpath="D:/EclipseK/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar" />
+	</target>
+
+	<target name="package" depends="compile">
+		<mkdir dir="${archives.dir}"/>
+
+		<jar destfile="${archives.dir}/FactNew.jar" basedir="build/classes">
+		</jar>
+
+		<ear destfile="${archives.dir}/Factnew.ear" basedir="build/classes">	
+		</ear>
+
+		<war destfile="${archives.dir}/Factnew.war" basedir="build/classes" >
+		</war>
+	</target>
+	<taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+		<classpath path="D:/EclipseK/eclipse/plugins/lib/jacocoant.jar" />
+	</taskdef>
+	<target name="junit" depends="package">
+		<mkdir dir="report/jacoco" />
+		<mkdir dir="${reports.junit.xml.dir}" />
+		<jacoco:coverage destfile="${report.dir}/jacoco/jacoco.exec" xmlns:jacoco="antlib:org.jacoco.ant">
+			<junit printsummary="on" haltonfailure="yes" fork="yes">
+				<classpath refid="classpath.test" />
+				<test name="FactTest1" />
+				<formatter type="xml" />
+				<batchtest todir="${reports.junit.xml.dir}">
+					<fileset dir="${build.dir}/Test">
+						<include name="**/*Test1*.class" />
+					</fileset>
+				</batchtest>
+			</junit>
+		</jacoco:coverage>
+	</target>
+	<!--target name="test-report" depends="junit">
+		<taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml" />
+		<classpath refid="classpath.test" />
+		<jacoco:report xmlns:jacoco="antlib:org.jacoco.ant">
+			<executiondata>
+				<file file="${test.report}/jacoco.exec" />
+			</executiondata>
+			<html destdir="${report.dir}" />
+		</jacoco:report>
+	</target-->
+
+
+	<!--<property name="sonar.host.url" value="http://10.219.17.177:9000" />
+	<property name="sonar.projectKey" value="prj_key:FactNew" />
+	<property name="sonar.projectName" value="Factnew" />
+	<property name="sonar.projectVersion" value="1.0" />
+	<property name="sonar.sources" value="${src.dir}" />
+	property name="sonar.tests" value="${src.dir}/Test" /
+	<property name="sonar.java.binaries" value="${build.dir}" />
+	<property name="sonar.java.libraries" value="lib/*.jar" />
+	<property name="sonar.junit.reportsPath" value="${reports.junit.xml.dir}" />
+	<property name="sonar.java.coveragePlugin" value="jacoco" />
+	<property name="sonar.jacoco.reportPath" value="${report.dir}/jacoco/jacoco.exec" />-->
+
+
+
+	<!--<target name="sonar" depends="junit">
+		<echo>Inside Sonar</echo>
+		<taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+			<classpath path="D:\EclipseK\Project\FactNew\lib\sonar-ant-task-2.2.jar" />
+		</taskdef>
+
+		<sonar:sonar xmlns:sonar="antlib:org.sonar.ant" />
+	</target>-->
+</project>

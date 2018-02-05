@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Group-Id: com.cognizant
+Short-Name: Plot_Graph
+Long-Name: Clair Docker Scanner Plot Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-05/22/2017 11:20-514359)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Libraries: D:\EclipseK\Project\Plot_Graph\src\main\resources,D:\Eclips
+ eK\Project\Plot_Graph\target\classes
+Resource-Path: D:\EclipseK\Project\Plot_Graph\src\main\webapp
+

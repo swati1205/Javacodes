@@ -1,0 +1,4 @@
+com\cognizant\MongoDb\MongoDb_Backup.stapler
+com\cognizant\MongoDb\MongoDb_Backup$DescriptorImpl.class
+com\cognizant\MongoDb\MongoDb_Backup.class
+META-INF\annotations\hudson.Extension

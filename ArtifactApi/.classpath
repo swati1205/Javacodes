@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="D:/Jar/jar files/json-simple-1.1.jar/json-simple-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Jar/gson-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Jar/mysql-connector-java-5.1.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Jar/org-apache-commons-codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Jar/okhttp-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

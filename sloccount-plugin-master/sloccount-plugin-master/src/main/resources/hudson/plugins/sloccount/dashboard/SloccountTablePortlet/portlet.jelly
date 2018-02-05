@@ -1,0 +1,13 @@
+<j:jelly xmlns:j="jelly:core"
+    xmlns:st="jelly:stapler"
+    xmlns:dp="/hudson/plugins/view/dashboard">
+
+    <!-- According to https://wiki.jenkins-ci.org/display/JENKINS/Dashboard+View -->
+    <dp:decorate portlet="${it}">
+        <tr><td>
+            <div align="center">
+                <st:include page="table.jelly"/>
+            </div>
+        </td></tr>
+    </dp:decorate>
+</j:jelly>

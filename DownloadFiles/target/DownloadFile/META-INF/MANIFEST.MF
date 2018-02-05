@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: 514359
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_91
+Extension-Name: DownloadFile
+Specification-Title: DownloadFile
+Implementation-Title: DownloadFile
+Implementation-Version: 1.0
+Group-Id: com.cognizant
+Short-Name: DownloadFile
+Long-Name: DownloadFile Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/DownloadFile+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+

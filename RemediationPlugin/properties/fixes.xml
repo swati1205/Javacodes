@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fixes>
+   <fix causeid = "CM01">
+      <fixid>FM01</fixid>
+	  <fixDescription>Change 'default' to respective maven version in job configuration</fixDescription>
+   </fix>
+   
+   <fix causeid = "CM02">
+      <fixid>FM02</fixid>
+	  <fixDescription>Please configure the proper executable path</fixDescription> 
+   </fix>
+   
+   <fix causeid = "CM03">
+      <fixid>FM03</fixid>
+	  <fixDescription>Please give the goal for maven target</fixDescription> 
+   </fix>
+</fixes>

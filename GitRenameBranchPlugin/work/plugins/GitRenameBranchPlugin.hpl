@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins
+Short-Name: GitRenameBranchPlugin
+Long-Name: GitRenameBranchPlugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-10/05/2016 14:03-514359)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Libraries: D:\EclipseK\Project\GitRenameBranchPlugin\src\main\resource
+ s,D:\EclipseK\Project\GitRenameBranchPlugin\target\classes,D:\.m2\rep
+ ository\joda-time\joda-time\1.5.2\joda-time-1.5.2.jar,D:\.m2\reposito
+ ry\org\json\json\20160212\json-20160212.jar,D:\.m2\repository\com\squ
+ areup\okio\okio\1.6.0\okio-1.6.0.jar,D:\.m2\repository\org\apache\htt
+ pcomponents\httpasyncclient\4.0.2\httpasyncclient-4.0.2.jar,D:\.m2\re
+ pository\org\apache\httpcomponents\httpclient\4.4\httpclient-4.4.jar,
+ D:\.m2\repository\org\codehaus\httpcache4j\httpcache4j-api\1.6\httpca
+ che4j-api-1.6.jar,D:\.m2\repository\commons-io\commons-io\1.4\commons
+ -io-1.4.jar,D:\.m2\repository\javax\activation\activation\1.1\activat
+ ion-1.1.jar,D:\.m2\repository\org\apache\httpcomponents\httpcore-nio\
+ 4.3.2\httpcore-nio-4.3.2.jar,D:\.m2\repository\com\mashape\unirest\un
+ irest-java\1.4.7\unirest-java-1.4.7.jar,D:\.m2\repository\org\apache\
+ httpcomponents\httpcore\4.4\httpcore-4.4.jar,D:\.m2\repository\org\co
+ dehaus\groovy\groovy-json\2.4.7\groovy-json-2.4.7.jar,D:\.m2\reposito
+ ry\com\squareup\okhttp\okhttp\2.7.5\okhttp-2.7.5.jar,D:\.m2\repositor
+ y\commons-codec\commons-codec\1.9\commons-codec-1.9.jar,D:\.m2\reposi
+ tory\commons-lang\commons-lang\2.4\commons-lang-2.4.jar,D:\.m2\reposi
+ tory\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1
+ .jar,D:\.m2\repository\org\apache\httpcomponents\httpmime\4.3.6\httpm
+ ime-4.3.6.jar,D:\.m2\repository\org\codehaus\httpcache4j\resolvers\re
+ solvers-net-urlconnection\1.6\resolvers-net-urlconnection-1.6.jar,D:\
+ .m2\repository\org\codehaus\groovy\groovy\2.4.7\groovy-2.4.7.jar
+Resource-Path: D:\EclipseK\Project\GitRenameBranchPlugin\src\main\webapp
+

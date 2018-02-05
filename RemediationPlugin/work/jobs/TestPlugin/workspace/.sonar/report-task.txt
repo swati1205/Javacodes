@@ -1,0 +1,5 @@
+projectKey=jpetstore-6-master
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/jpetstore-6-master
+ceTaskId=AVZUaa3zeR3mW1vvYb4L
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVZUaa3zeR3mW1vvYb4L

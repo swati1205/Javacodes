@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+previous_ignore_patterns=\#*\n*$\n*.BAK\n*.Z\n*.bak\n*.elc\n*.ln\n*.log\n*.o\n*.obj\n*.olb\n*.old\n*.orig\n*.rej\n*/.git/*\n*~\n,*\n.\#*\n.DS_Store\n.del-*\n.deployables\n.git\n.make.state\n.nse_depinfo\n.svn\nCVS.adm\nRCS\nRCSLOG\nSCCS\n_$*\n_svn\n

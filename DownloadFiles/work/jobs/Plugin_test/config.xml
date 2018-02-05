@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <com.cognizant.DownloadFile.DownloadFiles plugin="DownloadFile@1.0">
+      <localUrl>D:\GitTasks</localUrl>
+      <localFileName>Sample.txt</localFileName>
+      <repoName>jpetstore-master</repoName>
+      <remoteFileName>hello.txt</remoteFileName>
+      <authFileLocation>D:\EclipseK\Project\GitBranchPlugin\abcd.props</authFileLocation>
+      <commitMsg>Creating a new branch in github</commitMsg>
+    </com.cognizant.DownloadFile.DownloadFiles>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

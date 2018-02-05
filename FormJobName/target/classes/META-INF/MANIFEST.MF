@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: 514359
+Build-Jdk: 1.8.0_91
+Class-Path: commons-codec-1.9.jar json-simple-1.1.jar
+Main-Class: com.cognizant.FormJobName
+Created-By: Maven Integration for Eclipse
+

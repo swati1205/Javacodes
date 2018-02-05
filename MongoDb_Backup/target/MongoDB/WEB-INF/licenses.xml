@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='com.cognizant' artifactId='MongoDB' version='1.0'><l:dependency name='MongoDB_Backup Plugin' groupId='com.cognizant' artifactId='MongoDB' version='1.0' url='https://wiki.jenkins-ci.org/display/JENKINS/MongoDB_Backup+Plugin'><l:description>MongoDB_Backup</l:description><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

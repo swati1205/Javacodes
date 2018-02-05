@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<proxy>
+  <name>10.36.1.101</name>
+  <port>8080</port>
+  <userName>514359</userName>
+  <secretPassword>nLC3SpmETYJbetNqsFqSvm0x9R0mW0hzxq2iHS2sysU=</secretPassword>
+  <testUrl>http://google.com</testUrl>
+</proxy>

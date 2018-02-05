@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Docker Security Scanner&apos;" deleteContents="false" description="Delete resource &apos;Docker Security Scanner&apos;" element1="/Docker Security Scanner" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1502710364563"/>
+</session>

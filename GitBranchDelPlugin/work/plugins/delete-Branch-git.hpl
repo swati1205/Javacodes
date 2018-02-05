@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins
+Short-Name: delete-Branch-git
+Long-Name: Cloudset GIT Delete Branch
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Cloudset GIT Delete B
+ ranch+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Libraries: D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitBranc
+ hDelPlugin\src\main\resources,D:\Documents\Plugin_and Utility\Jenkins
+ _Plugin\Git\GitBranchDelPlugin\target\classes,D:\.m2\repository\javax
+ \activation\activation\1.1\activation-1.1.jar,D:\.m2\repository\org\c
+ odehaus\groovy\groovy\2.4.7\groovy-2.4.7.jar,D:\.m2\repository\joda-t
+ ime\joda-time\1.5.2\joda-time-1.5.2.jar,D:\.m2\repository\org\apache\
+ httpcomponents\httpcore-nio\4.3.2\httpcore-nio-4.3.2.jar,D:\.m2\repos
+ itory\com\mashape\unirest\unirest-java\1.4.7\unirest-java-1.4.7.jar,D
+ :\.m2\repository\org\codehaus\httpcache4j\httpcache4j-api\1.6\httpcac
+ he4j-api-1.6.jar,D:\.m2\repository\org\apache\httpcomponents\httpclie
+ nt\4.4\httpclient-4.4.jar,D:\.m2\repository\commons-io\commons-io\1.4
+ \commons-io-1.4.jar,D:\.m2\repository\commons-lang\commons-lang\2.4\c
+ ommons-lang-2.4.jar,D:\.m2\repository\com\squareup\okio\okio\1.6.0\ok
+ io-1.6.0.jar,D:\.m2\repository\commons-codec\commons-codec\1.9\common
+ s-codec-1.9.jar,D:\.m2\repository\org\apache\httpcomponents\httpmime\
+ 4.3.6\httpmime-4.3.6.jar,D:\.m2\repository\org\apache\httpcomponents\
+ httpasyncclient\4.0.2\httpasyncclient-4.0.2.jar,D:\.m2\repository\org
+ \codehaus\groovy\groovy-json\2.4.7\groovy-json-2.4.7.jar,D:\.m2\repos
+ itory\com\squareup\okhttp\okhttp\2.7.5\okhttp-2.7.5.jar,D:\.m2\reposi
+ tory\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1
+ .jar,D:\.m2\repository\org\json\json\20160212\json-20160212.jar,D:\.m
+ 2\repository\org\codehaus\httpcache4j\resolvers\resolvers-net-urlconn
+ ection\1.6\resolvers-net-urlconnection-1.6.jar,D:\.m2\repository\org\
+ apache\httpcomponents\httpcore\4.4\httpcore-4.4.jar
+Resource-Path: D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitB
+ ranchDelPlugin\src\main\webapp
+

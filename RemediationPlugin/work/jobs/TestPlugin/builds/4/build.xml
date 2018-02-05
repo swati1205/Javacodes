@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1476422120522</timestamp>
+  <startTime>1476422120535</startTime>
+  <result>SUCCESS</result>
+  <duration>614</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\EclipseK\Project\RemediationPlugin\work\jobs\TestPlugin\workspace</workspace>
+  <hudsonVersion>1.642.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>unknown</string>
+  </culprits>
+</build>

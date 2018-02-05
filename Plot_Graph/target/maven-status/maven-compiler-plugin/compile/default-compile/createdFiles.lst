@@ -1,0 +1,7 @@
+com\cognizant\Plot_Graph\ProjectAction.class
+com\cognizant\Plot_Graph\GraphBuilder.stapler
+com\cognizant\Plot_Graph\GraphBuilder$DescriptorImpl.class
+com\cognizant\Plot_Graph\GraphPoints.class
+com\cognizant\Plot_Graph\BuildAction.class
+com\cognizant\Plot_Graph\GraphBuilder.class
+META-INF\annotations\hudson.Extension

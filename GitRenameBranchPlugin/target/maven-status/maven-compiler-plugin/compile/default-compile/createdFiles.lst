@@ -1,0 +1,7 @@
+org\jenkins\GitRenameBranchPlugin\RenameBranch.stapler
+org\jenkins\GitRenameBranchPlugin\CommonUtilsGit$1.class
+org\jenkins\GitRenameBranchPlugin\RenameBranch$DescriptorImpl.class
+org\jenkins\GitRenameBranchPlugin\RenameBranch.class
+org\jenkins\GitRenameBranchPlugin\CommonUtilsGit$2.class
+org\jenkins\GitRenameBranchPlugin\CommonUtilsGit.class
+META-INF\annotations\hudson.Extension

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Group-Id: com.cognizant
+Short-Name: MongoDb_Back
+Long-Name: MongoDB_Backup Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/MongoDB_Backup+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Libraries: D:\Documents\Plugin_and Utility\Jenkins_Plugin\MongoDB\Back
+ up\MongoDb_Backup\src\main\resources,D:\Documents\Plugin_and Utility\
+ Jenkins_Plugin\MongoDB\Backup\MongoDb_Backup\target\classes
+Resource-Path: D:\Documents\Plugin_and Utility\Jenkins_Plugin\MongoDB\
+ Backup\MongoDb_Backup\src\main\webapp
+

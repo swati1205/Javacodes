@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins
+Short-Name: GitBranchPlugin
+Long-Name: GitBranchPlugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-10/03/2016 16:20-514359)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Support-Dynamic-Loading: true
+Libraries: D:\SonarProjectPlugin\src\main\resources,D:\SonarProjectPlu
+ gin\target\classes,D:\.m2\repository\org\apache\httpcomponents\httpcl
+ ient\4.4\httpclient-4.4.jar,D:\.m2\repository\org\codehaus\httpcache4
+ j\httpcache4j-api\1.6\httpcache4j-api-1.6.jar,D:\.m2\repository\org\j
+ son\json\20160212\json-20160212.jar,D:\.m2\repository\com\mashape\uni
+ rest\unirest-java\1.4.7\unirest-java-1.4.7.jar,D:\.m2\repository\comm
+ ons-codec\commons-codec\1.9\commons-codec-1.9.jar,D:\.m2\repository\c
+ ommons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar,D
+ :\.m2\repository\org\codehaus\groovy\groovy-json\2.4.7\groovy-json-2.
+ 4.7.jar,D:\.m2\repository\org\apache\httpcomponents\httpcore\4.4\http
+ core-4.4.jar,D:\.m2\repository\com\squareup\okhttp\okhttp\2.7.5\okhtt
+ p-2.7.5.jar,D:\.m2\repository\org\codehaus\groovy\groovy\2.4.7\groovy
+ -2.4.7.jar,D:\.m2\repository\com\squareup\okio\okio\1.6.0\okio-1.6.0.
+ jar,D:\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.
+ jar,D:\.m2\repository\org\apache\httpcomponents\httpmime\4.3.6\httpmi
+ me-4.3.6.jar,D:\.m2\repository\javax\activation\activation\1.1\activa
+ tion-1.1.jar,D:\.m2\repository\commons-io\commons-io\1.4\commons-io-1
+ .4.jar,D:\.m2\repository\org\apache\httpcomponents\httpcore-nio\4.3.2
+ \httpcore-nio-4.3.2.jar,D:\.m2\repository\joda-time\joda-time\1.5.2\j
+ oda-time-1.5.2.jar,D:\.m2\repository\org\apache\httpcomponents\httpas
+ yncclient\4.0.2\httpasyncclient-4.0.2.jar,D:\.m2\repository\org\codeh
+ aus\httpcache4j\resolvers\resolvers-net-urlconnection\1.6\resolvers-n
+ et-urlconnection-1.6.jar
+Resource-Path: D:\SonarProjectPlugin\src\main\webapp
+

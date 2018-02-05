@@ -1,0 +1,49 @@
+<j:jelly xmlns:j="jelly:core" xmlns:d="jelly:define" xmlns:l="/lib/layout"
+         xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:i="jelly:fmt">
+      <t:summary icon="redo.png">
+	  <style>
+.beta table {
+color: #333;
+font-family: Helvetica, Arial, sans-serif;
+width: 640px; 
+border-collapse: 
+collapse; border-spacing: 0; 
+}
+
+.beta td,.beta th {
+border: 1px solid; 
+height: 30px; 
+transition: all 0.3s; 
+}
+
+.beta th {
+background: #DFDFDF; 
+font-weight: bold;
+}
+
+.beta tr,.beta td {
+background:#fff;
+color:#000;
+}
+
+.beta tr,.beta td:hover {
+ background: #666;
+ color: #FFF;
+}
+</style>
+     <h2>Sonar Project</h2>
+	  <table class="beta">
+	  <tr>
+	  <td><b>ProjectName</b></td>
+	  </tr>
+	 
+	 <j:forEach var="project" items="${it.list}" varStatus="loop"> 
+	  <tr>
+	  <td>${project}</td>
+	  
+	  </tr>
+	  </j:forEach> 
+	  </table>
+	
+    </t:summary>
+</j:jelly>

@@ -1,0 +1,76 @@
+<project name="copyartifacts.java" default="sonar">
+	<property name="src" value="src/main/java" />
+	<property name="test" value="src/test/java" />
+	<property name="Lib" value="Lib" />
+	<property name="build" value="build/classes" />
+
+	<path id="classpath">
+		<pathelement location="${src}" />
+		<pathelement location="${test}" />
+		<fileset dir="${Lib}" />
+	</path>
+
+	<target name="clean">
+		<delete dir="build" />
+		<echo message="Clean done..." />
+	</target>
+
+	<target name="compile" depends="clean">
+		<mkdir dir="build/classes" />
+		<javac srcdir="${src}" destdir="${build}" includeantruntime="false">
+			<classpath refid="classpath" />
+		</javac>
+		<javac srcdir="${test}" destdir="${build}" includeantruntime="false">
+			<classpath refid="classpath" />
+		</javac>
+		<echo message="compile Done...." />
+	</target>
+
+	<target name="jar" depends="compile">
+		<mkdir dir="build/jar" />
+		<jar destfile="build/jar/copy.jar" basedir="${build}">
+		</jar>
+	</target>
+
+	<!--target name="test" depends="jar">
+		<echo>InsideTest</echo>
+		<junit printsummary="yes" haltonfailure="no">
+			<classpath refid="classpath" />
+
+			<formatter type="xml" />
+
+			<batchtest fork="yes" todir="${report}">
+				<fileset dir="${test}">
+					<include name="**/*Test*.java" />
+					<exclude name="**/AllTests.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target-->
+
+	<property name="sonar.host.url" value="http://10.219.193.101:9000"/>
+		<property name="sonar.projectKey" value="org.sonarqube:javascript-lcov-sq-scanner" />
+		<property name="sonar.projectName" value="CopyArtifacts" />
+		<property name="sonar.projectVersion" value="1.0" />
+		<property name="sonar.sources" value="${src}" />
+		<property name="sonar.java.binaries" value="${build}" />
+		<property name="sonar.java.libraries" value="lib/*.jar" />
+
+		<target name="sonar" depends="jar">
+			<echo>Inside Sonar</echo>
+			<taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+				<classpath path="D:\EclipseK\Project\copyartifacts\Lib\sonar-ant-task-2.2.jar" />
+			</taskdef>
+
+			<sonar:sonar xmlns:sonar="antlib:org.sonar.ant"/>
+ </target>
+</project>
+
+
+
+
+
+
+
+
+

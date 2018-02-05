@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <org.jenkins.SonarProject.ViewIssuesAction plugin="SonarProject@1.0-SNAPSHOT">
+      <build class="build" reference="../../.."/>
+      <list>
+        <string>Simple Java Maven Project</string>
+        <string>Sonar Artifacts</string>
+        <string>Sonar Artifacts Testing</string>
+        <string>Sonar Bug Rectifier</string>
+        <string>Sonar Bugs</string>
+        <string>Sonar CodeSmells</string>
+        <string>Sonar Complexity Dashboard</string>
+        <string>Sonar Coverage</string>
+        <string>Sonar DeleteFile</string>
+        <string>Sonar DeleteFile Testing</string>
+        <string>Sonar Quality Dashboard</string>
+        <string>Sonar QualityAnalysis</string>
+        <string>Sonar Rules</string>
+        <string>Sonar Rules Compliance</string>
+        <string>Sonar Rules-ViolationsDensity</string>
+        <string>Sonar Rules-ViolationsDensityMetrics</string>
+        <string>Sonar Update</string>
+        <string>Sonar UpdateVersion</string>
+        <string>SonarQube :: Plugin API Dependencies</string>
+        <string>Spring3Example</string>
+        <string>Svn JBH</string>
+        <string>Svn Tasks</string>
+        <string>Svn Tasks Utility</string>
+        <string>Svn Tasks-Sonar</string>
+        <string>gameoflife</string>
+        <string>spring-jpetstore</string>
+      </list>
+    </org.jenkins.SonarProject.ViewIssuesAction>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1490078072432</timestamp>
+  <startTime>1490078073495</startTime>
+  <result>SUCCESS</result>
+  <duration>23601</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\EclipseK\Project\SonarProject\work\jobs\TestSonar\workspace</workspace>
+  <hudsonVersion>1.625.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

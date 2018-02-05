@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<causes>
+   <cause issueid = "IM01">
+      <causeid>CM01</causeid>
+	  <causeDescription>Maven Version 'Default' is selected in job configuration</causeDescription>
+   </cause>
+   
+   <cause issueid = "IM02">
+      <causeid>CM02</causeid>
+	  <causeDescription>build tool executable path is configured wrongly</causeDescription>
+	  
+   </cause>
+   
+   <cause issueid = "IM03">
+      <causeid>CM03</causeid>
+	  <causeDescription>No goals specified in maven target</causeDescription>
+	  
+   </cause>
+</causes>

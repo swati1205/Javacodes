@@ -1,0 +1,3 @@
+com\cognizant\Sample\HelloWorldBuilder\DescriptorImpl\doCheckName.stapler
+com\cognizant\Sample\HelloWorldBuilder.stapler
+META-INF\annotations\hudson.Extension

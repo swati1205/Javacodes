@@ -1,0 +1,22 @@
+<log plugin="filesystem_scm@1.20">
+  <run class="hudson.model.FreeStyleBuild">
+    <actions>
+      <hudson.model.CauseAction>
+        <causes>
+          <hudson.model.Cause_-UserIdCause/>
+        </causes>
+      </hudson.model.CauseAction>
+    </actions>
+    <queueId>1</queueId>
+    <timestamp>1476427982204</timestamp>
+    <startTime>1476427982212</startTime>
+    <duration>0</duration>
+    <charset>windows-1252</charset>
+    <keepLog>false</keepLog>
+    <builtOn></builtOn>
+    <workspace>D:\EclipseK\Project\RemediationPlugin\work\jobs\TestPlugin\workspace</workspace>
+    <hudsonVersion>1.642.3</hudsonVersion>
+    <scm class="hudson.scm.NullChangeLogParser"/>
+  </run>
+  <logs/>
+</log>

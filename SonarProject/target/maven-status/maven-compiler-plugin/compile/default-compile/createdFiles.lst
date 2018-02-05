@@ -1,0 +1,5 @@
+org\jenkins\SonarProject\ViewIssuesAction.class
+org\jenkins\SonarProject\JenkinsSonarPrj$DescriptorImpl.class
+org\jenkins\SonarProject\JenkinsSonarPrj.class
+META-INF\annotations\hudson.Extension
+org\jenkins\SonarProject\JenkinsSonarPrj.stapler

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.scm.SCMRevisionState_-None/>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1476427982204</timestamp>
+  <startTime>1476427982212</startTime>
+  <result>FAILURE</result>
+  <duration>2771</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\EclipseK\Project\RemediationPlugin\work\jobs\TestPlugin\workspace</workspace>
+  <hudsonVersion>1.642.3</hudsonVersion>
+  <scm class="hudson.plugins.filesystem_scm.ChangelogSet$XMLSerializer" plugin="filesystem_scm@1.20"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

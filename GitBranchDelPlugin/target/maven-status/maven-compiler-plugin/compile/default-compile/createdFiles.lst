@@ -1,0 +1,5 @@
+org\jenkins\GitBranchDelPlugin\BranchDelete.class
+org\jenkins\GitBranchDelPlugin\BranchDelete.stapler
+org\jenkins\GitBranchDelPlugin\CommonUtilsGit.class
+org\jenkins\GitBranchDelPlugin\BranchDelete$DescriptorImpl.class
+META-INF\annotations\hudson.Extension

@@ -1,0 +1,4 @@
+com\cognizant\BuildCounterPlugin\BuildCounter$DescriptorImpl.class
+com\cognizant\BuildCounterPlugin\BuildCounter.class
+com\cognizant\BuildCounterPlugin\BuildCounter.stapler
+com\cognizant\BuildCounterPlugin\ViewAction.class

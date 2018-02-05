@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.cognizant.Sample.HelloWorldBuilder_-DescriptorImpl plugin="Sample@1.0-SNAPSHOT">
+  <useFrench>true</useFrench>
+</com.cognizant.Sample.HelloWorldBuilder_-DescriptorImpl>
